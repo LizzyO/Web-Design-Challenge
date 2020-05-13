@@ -1,0 +1,15 @@
+.jumbotron {
+  min-height: 50px;
+  padding: 5px;
+  margin: 5px;
+  font-style: normal;
+  background-color: white;
+
+}
+
+.img {
+  width: 2300px;
+  height: 300px;
+  vertical-align: middle;
+}
+
