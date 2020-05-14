@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Latitude - Latitude Analysis Dashboard with Attitude</title>
+  <title>Visualization: Max Temp</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -32,52 +32,23 @@
           <a class="nav-link" href="Comparison.html">Comparison</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="data">Data</a>
+          <a class="nav-link" href="Data.html">Data</a>
         </li>
       </ul>
     </div>
   </nav>
-  <!-- Visualization Grid -->
-<div class="container">
-  <div class= "row">
-    <div class="column>
-        <div class="content">
-        <h1 class="font-weight-bold text-info">Summary: Lattitude vs. X</h1>
-        <hr class="my-2">
-          <a target="_blank" href="assets/temperaturemap.png">
-          <img class="summaryimg" src="assets/temperaturemap.png" alt="Cloudy Map" style="width:30%">
-          </a>
-            <p>The purpose of the project was to analyze how weather changes as you get closer to equator. To accompish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset of over 500 cities.</p>
-            <br
-            <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. lattitude. Factors we looked at included: temperature, cloudines, wind speed and humidity.</p>
-        </div>
-        </div> 
-      </div> 
 
+
+
+  <div class="container">
     <div class="row">
-    <div class="column">
-      <div class="content">
-       <div class="col-md-4 ">
-          <h2 class="text-info">Visualizations</h2>
-          <hr class="my-2">
-
-          <a target="_blank" href="assets/cloudymap.png.png">
-          <img src="assets/cloudymap.png" alt="Cloudy Map" class="visual1">
-          <a target="_blank" href="assets/temperaturemap.png">
-          <img src="assets/temperaturemap.png" alt= "Temp map" class="visual2">
-          <a target="_blank" href="assets/humiditymap.png">
-          <img src="assets/humiditymap.png" alt= "Humidity Map" class="visual3">
-          <a target="_blank" href="assets/windmap.png">
-            <img src="assets/windmap.png" alt= "Wind Map" class="visual4">
-          </div>
-        </div>
-      </div>
-  </div>
-  <!-- END GRID -->
-</div>
-
-
-
+     <h1 class="font-weight-bold text-info">Data</h1>
+     <div class="table-responsive">
+      <table class="table">
+        
+        
+      </table>
+    </div>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
