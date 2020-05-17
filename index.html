@@ -8,11 +8,10 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="font-weight-bold p-3 bg-info text-white" href="lattitude.html">Lattitude</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
+    <a class="font-weight-bold p-3 bg-info text-white" href="index.html">Lattitude</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+      <span class="navbar-toggler-icon "></span>
     </button>
     
     <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
@@ -32,65 +31,64 @@
           <a class="nav-link" href="Comparison.html">Comparison</a>
         </li>
         <li class="nav-item active">
-          <a class="nav-link" href="data">Data</a>
+          <a class="nav-link" href="Data.html">Data</a>
         </li>
       </ul>
     </div>
   </nav>
-  <!-- Visualization Grid -->
-<div class="container col-md-8">
-  <div class= "row">
-    <div class="column">
-        <div class="content">
-        <h1 class="font-weight-bold text-info">Summary: Lattitude vs. X</h1>
+
+  <!-- Page Content -->
+<div class="container">
+  <div class= "row" style="padding-right: 10px;" >
+    <div class= "col-lg-7 col-md-12 col-sm-12">
+        <h2 class="font-weight-bold text-info">Summary: Latitude vs. X</h2>
          <hr class="my-2">
-          <!-- <a target="_blank" href="assets/temperaturemap.png"> -->
-          <img class="summaryimg" src="assets/temperaturemap.png" alt="Cloudy Map" style="width:30%">
-          <!-- </a> -->
+          <img class="img-fluid" src="assets/temperaturemap.png" alt="Cloudy Map">
+           <div class="info">
             <p>The purpose of the project was to analyze how weather changes as you get closer to equator. To accompish this analysis, we first pulled data from the OpenWeatherMap API to assemble a dataset of over 500 cities.</p>
             <br>
-            <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. lattitude. Factors we looked at included: temperature, cloudines, wind speed and humidity.</p>
+            <p>After assembling the dataset, we used Matplotlib to plot various aspects of the weather vs. latitude. Factors we looked at included: temperature, cloudiness, wind speed and humidity. This site provides the source data and visualizations created as part of the analysis, as well as explanations and descriptions of any trends and correlations witnessed. </p>
         </div>
-        </div> 
-      </div> 
-</div>
+      </div>  
 
 
-<div class="container col-sm-12 col-md-4 justify-content-end">
-    <div class="row">
-      <div class="col-sm-12 col-md-6 col-lg-6">
-       <!-- <div class="column">
-        <div class="content"> -->
-          <h2 class="text-info">Visualizations</h2>
-          <hr>
-      </div>
-    </div>
-    
+      <div class="col-lg-5 col-md-12 col-sm-12">
+          <h3 class="text-info">Visualizations</h3>
+          <hr class="my-2">
 
-    <div class="row">
-      <div class="col-sm-3 col-md-3 col-lg-3">
-            <a target="_blank" href="assets/cloudymap.png.png">
-           <img src="assets/cloudymap.png" alt="Cloudy Map" class="visual1">
+
+        <div class="row">
+          <div class="col-6 col-3">
+            <a href="assets/cloudymap.png">
+           <img src="assets/cloudymap.png" alt="Cloudy Map" class="index-images">
           </div>
-          <div class="col-sm-3 col-md-3 col-lg-3">
+          <div class="col-6 col-3">
           <a target="_blank" href="assets/temperaturemap.png">
-          <img src="assets/temperaturemap.png" alt= "Temp map" class="visual2">
+          <img src="assets/temperaturemap.png" alt= "Temp map" class="index-images">
           </div>
         </div>
 
          <div class="row">
-            <div class="col-sm-3 col-md-3 col-lg-3">
+            <div class="col-6">
               <a target="_blank" href="assets/humiditymap.png">
-            <img src="assets/humiditymap.png" alt= "Humidity Map" class="visual3">
+            <img src="assets/humiditymap.png" alt= "Humidity Map" class="index-images">
            </div>
 
-            <div class="col-sm-3 col-md-3 col-lg-3">
+            <div class="col-6">
             <a target="_blank" href="assets/windmap.png">
-               <img src="assets/windmap.png" alt= "Wind Map" class="visual4">
+               <img src="assets/windmap.png" alt= "Wind Map" class="index-images">
           </div>
         </div>
-  <!-- END GRID -->
-</div>
+      </div>
+    </div>
+  </div>
+
+
+  <nav class="navbar fixed-bottom navbar-light bg-light">
+    <span class="navbar-text">
+      @Copyright Coding Bootcamp 2017
+    </span>
+  </nav>
 
 
 

@@ -10,7 +10,7 @@
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="font-weight-bold p-3 bg-info text-white" href="lattitude.html">Lattitude</a>
+    <a class="font-weight-bold p-3 bg-info text-white" href="index.html">Lattitude</a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -40,13 +40,53 @@
 
 
   <div class="container">
-      <h1 class="display-4 font-weight-bold text-info">Max Temperature</h1>
-      <hr class="my-4">
-      <a target="_blank" href="assets/temperaturemap.png">
-        <img src="assets/temperaturemap.png" alt="Cloudy Map">
-      </a>
-      <p>As expected the weather becomes significantly warmer as one approaches the equator. </p>
-  </div>
+    <div class= "row" >
+      <div class= "col-lg-7 col-md-12">
+        <h3 class="display-4 font-weight-bold text-info">Max Temperature</h3>
+        <hr class="my-2">
+          <a target="_blank" href="assets/temperaturemap.png">
+            <img src="assets/temperaturemap.png" alt="Cloudy Map" class="visuals">
+          </a>
+            <p>As expected the weather becomes significantly warmer as one approaches the equator. (0 Deg. Lattitude) More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year that the data was gathered.</p>
+        </div>
+
+      <div class="col-lg-5 col-md-12">
+        <h3 class="text-info">Visualizations</h3>
+        <hr class="my-2">
+
+      <div class="row">
+        <div class="col-6">
+          <a href="assets/cloudymap.png">
+         <img src="assets/cloudymap.png" alt="Cloudy Map" class="index-images">
+        </div>
+        <div class="col-6">
+        <a target="_blank" href="assets/temperaturemap.png">
+        <img src="assets/temperaturemap.png" alt= "Temp map" class="index-images">
+        </div>
+      </div>
+
+       <div class="row">
+          <div class="col-6">
+            <a target="_blank" href="assets/humiditymap.png">
+          <img src="assets/humiditymap.png" alt= "Humidity Map" class="index-images">
+         </div>
+
+          <div class="col-6">
+          <a target="_blank" href="assets/windmap.png">
+             <img src="assets/windmap.png" alt= "Wind Map" class="index-images">
+         </div>
+        </div>
+       </div>
+    </div> 
+   </div>
+
+  
+  <nav class="navbar fixed-bottom navbar-light bg-light">
+    <span class="navbar-text center">
+      @Copyright Coding Bootcamp 2017
+    </span>
+  </nav>
+  
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
